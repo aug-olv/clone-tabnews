@@ -1,2 +1,2 @@
 # clone-tabnews
-Clone do tabnews para fins de estudo
+Clone do [tabnews](https://www.tabnews.com.br/) para fins de estudo
