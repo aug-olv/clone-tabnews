@@ -10,6 +10,7 @@
     "loose-envify": "^1.4.0",
     "nanoid": "^3.3.7",
     "next": "^13.1.6",
+    "pg": "^8.11.3",
     "picocolors": "^1.1.1",
     "postcss": "^8.4.14",
     "react": "^18.2.0",
@@ -28,7 +29,7 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
