@@ -34,5 +34,9 @@ export default async function migrations(req, res) {
     return res.status(200).json(migratedMigrations);
   }
 
+  if (req.method !== "GET" || req.method !== "POST") {
+    return res.status(405).end();
+  }
+
   return res.status(405).end();
 }
